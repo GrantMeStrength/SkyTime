@@ -7,29 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5B253B61DCD19E9004406C3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B253B41DCD19E9004406C3 /* ViewController_iPhone.xib */; };
+		D5B253B71DCD19E9004406C3 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B253B51DCD19E9004406C3 /* ViewController_iPad.xib */; };
+		D5B253BA1DCD1CDF004406C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B253B91DCD1CDF004406C3 /* ViewController.m */; };
 		D5FDC9FC1DCCBD84005EB1D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDC9FB1DCCBD84005EB1D5 /* main.m */; };
 		D5FDC9FF1DCCBD84005EB1D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDC9FE1DCCBD84005EB1D5 /* AppDelegate.m */; };
-		D5FDCA021DCCBD84005EB1D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA011DCCBD84005EB1D5 /* ViewController.m */; };
-		D5FDCA051DCCBD84005EB1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA031DCCBD84005EB1D5 /* Main.storyboard */; };
-		D5FDCA071DCCBD84005EB1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA061DCCBD84005EB1D5 /* Assets.xcassets */; };
-		D5FDCA0A1DCCBD84005EB1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA081DCCBD84005EB1D5 /* LaunchScreen.storyboard */; };
+		D5FDCA191DCCBD9D005EB1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA181DCCBD9D005EB1D5 /* Assets.xcassets */; };
+		D5FDCA201DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5FDCA1F1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5FDCA261DCCBD9D005EB1D5 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA251DCCBD9D005EB1D5 /* InterfaceController.m */; };
+		D5FDCA291DCCBD9D005EB1D5 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA281DCCBD9D005EB1D5 /* ExtensionDelegate.m */; };
+		D5FDCA2B1DCCBD9D005EB1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA2A1DCCBD9D005EB1D5 /* Assets.xcassets */; };
+		D5FDCA2F1DCCBD9D005EB1D5 /* SkyTimeAppWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D5FDCA131DCCBD9D005EB1D5 /* SkyTimeAppWatch.app */; };
+		D5FDCA3A1DCCBE55005EB1D5 /* Universe.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA391DCCBE55005EB1D5 /* Universe.m */; };
+		D5FDCA3B1DCCBE55005EB1D5 /* Universe.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA391DCCBE55005EB1D5 /* Universe.m */; };
+		D5FDCA421DCCBE66005EB1D5 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FDCA3D1DCCBE66005EB1D5 /* InfoViewController.m */; };
+		D5FDCA481DCCBE66005EB1D5 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA401DCCBE66005EB1D5 /* InfoViewController.xib */; };
+		D5FDCA4A1DCCBE66005EB1D5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA411DCCBE66005EB1D5 /* Launch Screen.storyboard */; };
+		D5FDCA4D1DCCBE83005EB1D5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA4C1DCCBE83005EB1D5 /* Media.xcassets */; };
+		D5FDCA501DCCBEBB005EB1D5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FDCA4F1DCCBEBB005EB1D5 /* CoreLocation.framework */; };
+		D5FDCA521DCCBEC1005EB1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FDCA511DCCBEC1005EB1D5 /* UIKit.framework */; };
+		D5FDCA541DCCBEC7005EB1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FDCA531DCCBEC7005EB1D5 /* Foundation.framework */; };
+		D5FDCA561DCCBECF005EB1D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FDCA551DCCBECF005EB1D5 /* CoreGraphics.framework */; };
+		D5FDCA581DCCC19B005EB1D5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FDCA571DCCC19B005EB1D5 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D5FDCA211DCCBD9D005EB1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FDC9EF1DCCBD84005EB1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FDCA1E1DCCBD9D005EB1D5;
+			remoteInfo = "SkyTimeAppWatch Extension";
+		};
+		D5FDCA2D1DCCBD9D005EB1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FDC9EF1DCCBD84005EB1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FDCA121DCCBD9D005EB1D5;
+			remoteInfo = SkyTimeAppWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5FDCA331DCCBD9D005EB1D5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5FDCA201DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDCA371DCCBD9D005EB1D5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D5FDCA2F1DCCBD9D005EB1D5 /* SkyTimeAppWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D5B253B41DCD19E9004406C3 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D5B253B51DCD19E9004406C3 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		D5B253B91DCD1CDF004406C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5B253BB1DCD2237004406C3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D5FDC9F71DCCBD84005EB1D5 /* SkyTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FDC9FB1DCCBD84005EB1D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5FDC9FD1DCCBD84005EB1D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5FDC9FE1DCCBD84005EB1D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5FDCA001DCCBD84005EB1D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5FDCA011DCCBD84005EB1D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D5FDCA041DCCBD84005EB1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D5FDCA061DCCBD84005EB1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5FDCA091DCCBD84005EB1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5FDCA0B1DCCBD84005EB1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDCA131DCCBD9D005EB1D5 /* SkyTimeAppWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyTimeAppWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FDCA181DCCBD9D005EB1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5FDCA1A1DCCBD9D005EB1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDCA1F1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkyTimeAppWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FDCA241DCCBD9D005EB1D5 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D5FDCA251DCCBD9D005EB1D5 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D5FDCA271DCCBD9D005EB1D5 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		D5FDCA281DCCBD9D005EB1D5 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		D5FDCA2A1DCCBD9D005EB1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5FDCA2C1DCCBD9D005EB1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDCA381DCCBE55005EB1D5 /* Universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universe.h; sourceTree = "<group>"; };
+		D5FDCA391DCCBE55005EB1D5 /* Universe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Universe.m; sourceTree = "<group>"; };
+		D5FDCA3C1DCCBE66005EB1D5 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		D5FDCA3D1DCCBE66005EB1D5 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		D5FDCA401DCCBE66005EB1D5 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		D5FDCA411DCCBE66005EB1D5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D5FDCA4C1DCCBE83005EB1D5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		D5FDCA4F1DCCBEBB005EB1D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D5FDCA511DCCBEC1005EB1D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5FDCA531DCCBEC7005EB1D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5FDCA551DCCBECF005EB1D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5FDCA571DCCC19B005EB1D5 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D5FDC9F41DCCBD84005EB1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDCA561DCCBECF005EB1D5 /* CoreGraphics.framework in Frameworks */,
+				D5FDCA541DCCBEC7005EB1D5 /* Foundation.framework in Frameworks */,
+				D5FDCA521DCCBEC1005EB1D5 /* UIKit.framework in Frameworks */,
+				D5FDCA501DCCBEBB005EB1D5 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDCA1C1DCCBD9D005EB1D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,8 +133,12 @@
 		D5FDC9EE1DCCBD84005EB1D5 = {
 			isa = PBXGroup;
 			children = (
+				D5B253BB1DCD2237004406C3 /* LICENSE.txt */,
 				D5FDC9F91DCCBD84005EB1D5 /* SkyTimeApp */,
+				D5FDCA141DCCBD9D005EB1D5 /* SkyTimeAppWatch */,
+				D5FDCA231DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension */,
 				D5FDC9F81DCCBD84005EB1D5 /* Products */,
+				D5FDCA4E1DCCBEBB005EB1D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				D5FDC9F71DCCBD84005EB1D5 /* SkyTimeApp.app */,
+				D5FDCA131DCCBD9D005EB1D5 /* SkyTimeAppWatch.app */,
+				D5FDCA1F1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,10 +158,16 @@
 				D5FDC9FD1DCCBD84005EB1D5 /* AppDelegate.h */,
 				D5FDC9FE1DCCBD84005EB1D5 /* AppDelegate.m */,
 				D5FDCA001DCCBD84005EB1D5 /* ViewController.h */,
-				D5FDCA011DCCBD84005EB1D5 /* ViewController.m */,
-				D5FDCA031DCCBD84005EB1D5 /* Main.storyboard */,
-				D5FDCA061DCCBD84005EB1D5 /* Assets.xcassets */,
-				D5FDCA081DCCBD84005EB1D5 /* LaunchScreen.storyboard */,
+				D5B253B91DCD1CDF004406C3 /* ViewController.m */,
+				D5FDCA381DCCBE55005EB1D5 /* Universe.h */,
+				D5FDCA391DCCBE55005EB1D5 /* Universe.m */,
+				D5FDCA3C1DCCBE66005EB1D5 /* InfoViewController.h */,
+				D5FDCA3D1DCCBE66005EB1D5 /* InfoViewController.m */,
+				D5FDCA401DCCBE66005EB1D5 /* InfoViewController.xib */,
+				D5FDCA411DCCBE66005EB1D5 /* Launch Screen.storyboard */,
+				D5B253B41DCD19E9004406C3 /* ViewController_iPhone.xib */,
+				D5B253B51DCD19E9004406C3 /* ViewController_iPad.xib */,
+				D5FDCA4C1DCCBE83005EB1D5 /* Media.xcassets */,
 				D5FDCA0B1DCCBD84005EB1D5 /* Info.plist */,
 				D5FDC9FA1DCCBD84005EB1D5 /* Supporting Files */,
 			);
@@ -79,6 +182,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D5FDCA141DCCBD9D005EB1D5 /* SkyTimeAppWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDCA571DCCC19B005EB1D5 /* Interface.storyboard */,
+				D5FDCA181DCCBD9D005EB1D5 /* Assets.xcassets */,
+				D5FDCA1A1DCCBD9D005EB1D5 /* Info.plist */,
+			);
+			path = SkyTimeAppWatch;
+			sourceTree = "<group>";
+		};
+		D5FDCA231DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDCA241DCCBD9D005EB1D5 /* InterfaceController.h */,
+				D5FDCA251DCCBD9D005EB1D5 /* InterfaceController.m */,
+				D5FDCA271DCCBD9D005EB1D5 /* ExtensionDelegate.h */,
+				D5FDCA281DCCBD9D005EB1D5 /* ExtensionDelegate.m */,
+				D5FDCA2A1DCCBD9D005EB1D5 /* Assets.xcassets */,
+				D5FDCA2C1DCCBD9D005EB1D5 /* Info.plist */,
+			);
+			path = "SkyTimeAppWatch Extension";
+			sourceTree = "<group>";
+		};
+		D5FDCA4E1DCCBEBB005EB1D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDCA551DCCBECF005EB1D5 /* CoreGraphics.framework */,
+				D5FDCA531DCCBEC7005EB1D5 /* Foundation.framework */,
+				D5FDCA511DCCBEC1005EB1D5 /* UIKit.framework */,
+				D5FDCA4F1DCCBEBB005EB1D5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +226,51 @@
 				D5FDC9F31DCCBD84005EB1D5 /* Sources */,
 				D5FDC9F41DCCBD84005EB1D5 /* Frameworks */,
 				D5FDC9F51DCCBD84005EB1D5 /* Resources */,
+				D5FDCA371DCCBD9D005EB1D5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5FDCA2E1DCCBD9D005EB1D5 /* PBXTargetDependency */,
 			);
 			name = SkyTimeApp;
 			productName = SkyTimeApp;
 			productReference = D5FDC9F71DCCBD84005EB1D5 /* SkyTimeApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D5FDCA121DCCBD9D005EB1D5 /* SkyTimeAppWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FDCA341DCCBD9D005EB1D5 /* Build configuration list for PBXNativeTarget "SkyTimeAppWatch" */;
+			buildPhases = (
+				D5FDCA111DCCBD9D005EB1D5 /* Resources */,
+				D5FDCA331DCCBD9D005EB1D5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FDCA221DCCBD9D005EB1D5 /* PBXTargetDependency */,
+			);
+			name = SkyTimeAppWatch;
+			productName = SkyTimeAppWatch;
+			productReference = D5FDCA131DCCBD9D005EB1D5 /* SkyTimeAppWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D5FDCA1E1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FDCA301DCCBD9D005EB1D5 /* Build configuration list for PBXNativeTarget "SkyTimeAppWatch Extension" */;
+			buildPhases = (
+				D5FDCA1B1DCCBD9D005EB1D5 /* Sources */,
+				D5FDCA1C1DCCBD9D005EB1D5 /* Frameworks */,
+				D5FDCA1D1DCCBD9D005EB1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkyTimeAppWatch Extension";
+			productName = "SkyTimeAppWatch Extension";
+			productReference = D5FDCA1F1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -109,6 +282,14 @@
 				ORGANIZATIONNAME = craicdesign;
 				TargetAttributes = {
 					D5FDC9F61DCCBD84005EB1D5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5FDCA121DCCBD9D005EB1D5 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5FDCA1E1DCCBD9D005EB1D5 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -128,6 +309,8 @@
 			projectRoot = "";
 			targets = (
 				D5FDC9F61DCCBD84005EB1D5 /* SkyTimeApp */,
+				D5FDCA121DCCBD9D005EB1D5 /* SkyTimeAppWatch */,
+				D5FDCA1E1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +320,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FDCA0A1DCCBD84005EB1D5 /* LaunchScreen.storyboard in Resources */,
-				D5FDCA071DCCBD84005EB1D5 /* Assets.xcassets in Resources */,
-				D5FDCA051DCCBD84005EB1D5 /* Main.storyboard in Resources */,
+				D5FDCA4D1DCCBE83005EB1D5 /* Media.xcassets in Resources */,
+				D5FDCA481DCCBE66005EB1D5 /* InfoViewController.xib in Resources */,
+				D5FDCA4A1DCCBE66005EB1D5 /* Launch Screen.storyboard in Resources */,
+				D5B253B71DCD19E9004406C3 /* ViewController_iPad.xib in Resources */,
+				D5B253B61DCD19E9004406C3 /* ViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDCA111DCCBD9D005EB1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDCA581DCCC19B005EB1D5 /* Interface.storyboard in Resources */,
+				D5FDCA191DCCBD9D005EB1D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDCA1D1DCCBD9D005EB1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDCA2B1DCCBD9D005EB1D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,32 +352,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FDCA021DCCBD84005EB1D5 /* ViewController.m in Sources */,
+				D5B253BA1DCD1CDF004406C3 /* ViewController.m in Sources */,
 				D5FDC9FF1DCCBD84005EB1D5 /* AppDelegate.m in Sources */,
+				D5FDCA3A1DCCBE55005EB1D5 /* Universe.m in Sources */,
+				D5FDCA421DCCBE66005EB1D5 /* InfoViewController.m in Sources */,
 				D5FDC9FC1DCCBD84005EB1D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FDCA1B1DCCBD9D005EB1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FDCA291DCCBD9D005EB1D5 /* ExtensionDelegate.m in Sources */,
+				D5FDCA3B1DCCBE55005EB1D5 /* Universe.m in Sources */,
+				D5FDCA261DCCBD9D005EB1D5 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		D5FDCA031DCCBD84005EB1D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5FDCA041DCCBD84005EB1D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		D5FDCA221DCCBD9D005EB1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FDCA1E1DCCBD9D005EB1D5 /* SkyTimeAppWatch Extension */;
+			targetProxy = D5FDCA211DCCBD9D005EB1D5 /* PBXContainerItemProxy */;
 		};
-		D5FDCA081DCCBD84005EB1D5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5FDCA091DCCBD84005EB1D5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+		D5FDCA2E1DCCBD9D005EB1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FDCA121DCCBD9D005EB1D5 /* SkyTimeAppWatch */;
+			targetProxy = D5FDCA2D1DCCBD9D005EB1D5 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D5FDCA0C1DCCBD84005EB1D5 /* Debug */ = {
@@ -195,7 +403,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -213,12 +421,12 @@
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -243,7 +451,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -255,12 +463,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -273,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkyTimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,9 +493,70 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SkyTimeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5FDCA311DCCBD9D005EB1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SkyTimeAppWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		D5FDCA321DCCBD9D005EB1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "SkyTimeAppWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		D5FDCA351DCCBD9D005EB1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SkyTimeAppWatch_Extension;
+				INFOPLIST_FILE = SkyTimeAppWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		D5FDCA361DCCBD9D005EB1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = SkyTimeAppWatch_Extension;
+				INFOPLIST_FILE = SkyTimeAppWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.craicdesign.SkyTimeApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -309,6 +579,25 @@
 				D5FDCA101DCCBD84005EB1D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FDCA301DCCBD9D005EB1D5 /* Build configuration list for PBXNativeTarget "SkyTimeAppWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FDCA311DCCBD9D005EB1D5 /* Debug */,
+				D5FDCA321DCCBD9D005EB1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FDCA341DCCBD9D005EB1D5 /* Build configuration list for PBXNativeTarget "SkyTimeAppWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FDCA351DCCBD9D005EB1D5 /* Debug */,
+				D5FDCA361DCCBD9D005EB1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="16B2553a" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="LST" id="hdu-5i-XgP">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="12:44:28" id="czz-Ob-rAs">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <label alignment="left" text="Universal Time" id="NEW-55-RrJ">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="10:53:45" id="A6I-s0-Pyo">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <label alignment="left" text="Julian Date" id="iby-he-IGd">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="2457685.95418" id="j6k-dW-PTq">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="Julian Modified" id="egC-Tw-4CU">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="57685.45418" id="kQM-hl-5fc">
+                            <color key="textColor" red="1" green="0.1140821815" blue="0.1303394595" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="left" text="Location unknown" textAlignment="left" id="k3f-OD-lr0">
+                            <color key="textColor" red="0.51285511360000002" green="0.11248887" blue="0.086421039960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="labelJulian" destination="j6k-dW-PTq" id="fhJ-AX-a8d"/>
+                        <outlet property="labelJulianModifed" destination="kQM-hl-5fc" id="KpI-pE-jU9"/>
+                        <outlet property="labelJulianModifiedHeader" destination="egC-Tw-4CU" id="xNv-oj-LEN"/>
+                        <outlet property="labelLST" destination="czz-Ob-rAs" id="7OX-nP-x4A"/>
+                        <outlet property="labelLSTHeader" destination="hdu-5i-XgP" id="xJN-iS-nP6"/>
+                        <outlet property="labelLocation" destination="k3f-OD-lr0" id="QE9-5b-3bf"/>
+                        <outlet property="labelUniversal" destination="A6I-s0-Pyo" id="ZnF-qt-V6j"/>
+                        <outlet property="labelUniversalHeader" destination="NEW-55-RrJ" id="Vsb-5e-4bm"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
