@@ -75,6 +75,7 @@ BOOL locationObjectExists = FALSE;
     [Universe calculateTime];
     
     _labelJulian.text = [Universe getJulian];
+     _labelJulianModifed.text = [Universe getModifiedJulian];
     
     if (locationValid)
     {
@@ -85,8 +86,6 @@ BOOL locationObjectExists = FALSE;
     }
     else
     {
-        _labelJulianModifed.text = [Universe getModifiedJulian];
-        _labelJulianModifed.hidden = false; _labelJulianModifiedHeader.hidden = false;
         _labelLST.hidden = true;_labelLSTHeader.hidden = true;
         _labelUniversal.hidden = true;_labelUniversalHeader.hidden = true;
         
